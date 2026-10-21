@@ -63,7 +63,7 @@ h1 span { color: var(--neon); text-shadow: 0 0 30px #5dffb52b; }
 h2 { margin: 5px 0 0; font-size: 18px; letter-spacing: 1px; }
 .pill { white-space: nowrap; border: 1px solid #5dffb532; padding: 7px 10px; color: var(--neon); font: 10px var(--mono); letter-spacing: .8px; }
 .player-wrap { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid #ffffff12; background: #030507; }
-.player-wrap iframe { display: block; width: 100%; height: 100%; border: 0; }
+.player-wrap iframe {display: block;width: 100%;height: 100%;border: 0;background: #000;}.player-wrap iframe[hidden] {display: none !important;}
 .player-placeholder { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; background: radial-gradient(ellipse at center, #10231e 0%, #07090d 62%); color: var(--muted); text-align: center; }
 .play-symbol { display: grid; place-items: center; width: 66px; height: 66px; border: 1px solid var(--neon); color: var(--neon); font-size: 22px; padding-left: 4px; box-shadow: 0 0 24px #5dffb522; }
 .player-placeholder p { color: var(--text); font: 13px var(--mono); letter-spacing: 1.2px; }
