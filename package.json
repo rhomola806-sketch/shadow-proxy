@@ -1,0 +1,12 @@
+{
+  "name": "shadow-proxy",
+  "version": "2.0.0",
+  "description": "Shadow Proxy video terminal created by Rylan Homola",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
